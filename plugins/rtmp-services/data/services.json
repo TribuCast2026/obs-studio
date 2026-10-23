@@ -2746,11 +2746,8 @@
             ],
             "recommended": {
                 "max audio bitrate": 96
-            }
-        }
-    ]
-},
-{
+            },
+            {
     "name": "TribuCast",
     "stream_key_link": "https://client.tribucast.com/users/sign_in",
     "servers": [
@@ -2771,4 +2768,8 @@
         "max video bitrate": 1500,
         "max audio bitrate": 128
     }
+        }
+    ]
+},
+
 }
