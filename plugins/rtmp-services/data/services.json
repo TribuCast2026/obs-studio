@@ -2749,4 +2749,26 @@
             }
         }
     ]
+},
+{
+    "name": "TribuCast",
+    "stream_key_link": "https://client.tribucast.com/users/sign_in",
+    "servers": [
+        {
+            "name": "TribuCast (A)",
+            "url": "rtmp://bintu-stream.nanocosmos.de:1935/rec"
+        },
+        {
+            "name": "TribuCast (B)",
+            "url": "rtmp://bintu-stream.nanocosmos.de:80/rec"
+        }
+    ],
+    "supported video codecs": [
+        "h264"
+    ],
+    "recommended": {
+        "keyint": 2,
+        "max video bitrate": 1500,
+        "max audio bitrate": 128
+    }
 }
